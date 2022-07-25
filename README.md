@@ -14,6 +14,6 @@ Basic mechanism for making software or software components installable.
 Some of the recipes are mandatory, some of them are not. This is the list of the all supported recipes:
 
 - Mandatory
-  -- TBD.
+-- TBD.
 - Non-mandatory
-  -- TBD.
+-- TBD.
