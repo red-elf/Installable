@@ -11,9 +11,12 @@ Basic mechanism for making software or software components installable.
 
 ## Recipes
 
-Some of the recipes are mandatory, some of them are not. This is the list of the all supported recipes:
+Some of the recipes are mandatory, some of them are not. The upcoming sections show mandatory and non-mandatory recipes and its explanations.
 
-- Mandatory
-+ TBD.
-- Non-mandatory
-+ TBD.
+### Mandatory recipes
+
+TBD.
+
+### Non-mandatory recipes
+
+TBD.
