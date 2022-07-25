@@ -8,3 +8,12 @@ Basic mechanism for making software or software components installable.
 - In the root of the project create a directory called 'Recipes'
 - Implement all the required 'recipes' under the 'Recipes' directory
 - Execute: `sh Installable/install.sh`
+
+## Recipes
+
+Some of the recipes are mandatory, some of them are not. This is the list of the all supported recipes:
+
+- Mandatory
+  -- TBD.
+- Non-mandatory
+  -- TBD.
