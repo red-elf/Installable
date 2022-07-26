@@ -1,9 +1,9 @@
 #!/bin/bash
 
-ABOUT="../About.txt"
+ABOUT="About.txt"
 
 if test -e "$ABOUT"; then
 
-  echo "installation started"
+  echo "Installation started"
   cat "$ABOUT"
 fi;
