@@ -8,7 +8,7 @@ Basic mechanism for making software or software components installable.
 - In the root of the project create a directory called 'Recipes'
 - Optional: In the root of the project create the 'ABOUT.txt'
 - Implement all the required 'recipes' under the 'Recipes' directory
-- Execute: `sh Installable/install.sh`
+- Execute: `sh Installable/install.sh` from the root of your project
 
 ## Recipes
 
