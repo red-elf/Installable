@@ -16,8 +16,9 @@ Some recipes are mandatory, some of them are not. The upcoming sections show man
 
 ### Mandatory recipes
 
-TBD.
+- prepare.sh
+- install.sh
 
 ### Non-mandatory recipes
 
-TBD.
+To be defined soon.
