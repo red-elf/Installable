@@ -13,6 +13,16 @@ fi
 
 if test -e "$RECIPES"; then
 
+  DEPENDABLE="Dependable/install_dependencies.sh"
+  if test -e "$DEPENDABLE"; then
+
+    if ! sh "$DEPENDABLE"; then
+
+      echo "ERROR: Failed to install the dependencies"
+      exit 1
+    fi
+  fi
+
   if test -e "$RECIPE_PREPARE"; then
 
     if ! sh "$RECIPE_PREPARE"; then
