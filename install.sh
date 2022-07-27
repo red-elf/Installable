@@ -21,6 +21,9 @@ if test -e "$RECIPES"; then
       echo "ERROR: Failed to install the dependencies"
       exit 1
     fi
+  else
+
+    echo "No external dependencies associated with the project"
   fi
 
   if test -e "$RECIPE_PREPARE"; then
