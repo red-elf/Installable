@@ -2,8 +2,9 @@
 
 ABOUT="ABOUT.txt"
 RECIPES="Recipes"
-RECIPE_PREPARE="$RECIPES/prepare.sh"
-RECIPE_INSTALL="$RECIPES/install.sh"
+HERE="$(dirname -- "$0")"
+RECIPE_PREPARE="$HERE/$RECIPES/prepare.sh"
+RECIPE_INSTALL="$HERE/$RECIPES/install.sh"
 
 if test -e "$ABOUT"; then
 
