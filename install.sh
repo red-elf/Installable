@@ -2,6 +2,12 @@
 
 ABOUT="ABOUT.txt"
 RECIPES="Recipes"
+
+if [ -n "$1" ]; then
+
+  RECIPES="$1/$RECIPES"
+fi
+
 RECIPE_PREPARE="$RECIPES/prepare.sh"
 RECIPE_INSTALL="$RECIPES/install.sh"
 
