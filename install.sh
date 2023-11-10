@@ -56,8 +56,9 @@ if test -e "$RECIPES"; then
 
       echo "ERROR: '$RECIPE_INSTALL' recipe does not exist"
     fi
+    
 else
 
-  echo "ERROR: '$RECIPES' installation directory does not exist"
+  echo "ERROR: '$RECIPES' directory does not exist (1)"
   exit 1
 fi
