@@ -8,8 +8,8 @@ if [ -n "$1" ]; then
   RECIPES="$1/$RECIPES"
 fi
 
-RECIPE_PREPARE="$RECIPES/prepare.sh"
-RECIPE_INSTALL="$RECIPES/install.sh"
+RECIPE_PREPARE="$RECIPES/Installable/prepare.sh"
+RECIPE_INSTALL="$RECIPES/Installable/install.sh"
 
 if test -e "$ABOUT"; then
 
