@@ -14,7 +14,8 @@ RECIPE_INSTALL="$RECIPES/Installable/install.sh"
 if test -e "$ABOUT"; then
 
   echo "Installation started"
-  cat "$ABOUT"
+  
+  cat "$ABOUT" && echo
 fi
 
 if test -e "$RECIPES"; then
