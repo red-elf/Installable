@@ -24,7 +24,7 @@ if test -e "$RECIPES"; then
   
   if test -e "$DEPENDABLE"; then
 
-    if ! sh "$DEPENDABLE"; then
+    if ! bash "$DEPENDABLE"; then
 
       echo "ERROR: Failed to install the dependencies"
       exit 1
@@ -36,7 +36,7 @@ if test -e "$RECIPES"; then
 
   if test -e "$RECIPE_PREPARE"; then
 
-    if ! sh "$RECIPE_PREPARE"; then
+    if ! bash "$RECIPE_PREPARE"; then
 
       echo "ERROR: '$RECIPE_PREPARE' recipe failed"
       exit 1
@@ -48,7 +48,7 @@ if test -e "$RECIPES"; then
 
   if test -e "$RECIPE_INSTALL"; then
 
-      if ! sh "$RECIPE_INSTALL"; then
+      if ! bash "$RECIPE_INSTALL"; then
 
         echo "ERROR: '$RECIPE_INSTALL' recipe failed"
         exit 1
